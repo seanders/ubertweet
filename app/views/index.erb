@@ -10,6 +10,7 @@
   <% if @access_token %>
     <div>
       <p>
+        <p><%=@user.username%></p>
         <strong>token:</strong> <%= @access_token.token %><br>
         <strong>secret:</strong> <%= @access_token.secret %><br>
       </p>
